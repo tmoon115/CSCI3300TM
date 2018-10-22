@@ -244,8 +244,7 @@ public class Controller {
 
         timer.schedule(task, 0, 2500);
     }
-
-
+    
     public void timer_NS()
     {
         TimerTask task = new TimerTask()

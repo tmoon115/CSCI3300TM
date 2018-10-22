@@ -10,9 +10,8 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("edu/ung/mccb/csci/csci3300/iGoFast/View/login.fxml"));
         primaryStage.setTitle("Traffic Control Admin Registration");
-        primaryStage.setScene(new Scene(root, 600, 300));
+        primaryStage.setScene(new Scene(root, 580, 300));
         primaryStage.show();
-
     }
 
 
